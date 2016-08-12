@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b64ec34-5ebd-4205-83df-6a3aed2ff944" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/utility.js" afterPath="$PROJECT_DIR$/node_modules/utility.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/bootstrap-min.css" afterPath="$PROJECT_DIR$/public/GameBooks/css/bootstrap-min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/public/GameBooks/css/font-awesome.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/ie8.css" afterPath="$PROJECT_DIR$/public/GameBooks/css/ie8.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/ie9.css" afterPath="$PROJECT_DIR$/public/GameBooks/css/ie9.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/images/close.svg" afterPath="$PROJECT_DIR$/public/GameBooks/css/images/close.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/main.css" afterPath="$PROJECT_DIR$/public/GameBooks/css/main.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/theme-min.css" afterPath="$PROJECT_DIR$/public/GameBooks/css/theme-min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/javascript/bootstrap-min.js" afterPath="$PROJECT_DIR$/public/GameBooks/javascript/bootstrap-min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/javascript/jquery.js" afterPath="$PROJECT_DIR$/public/GameBooks/javascript/jquery.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/javascript/jquery.min.js" afterPath="$PROJECT_DIR$/public/GameBooks/javascript/jquery.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/javascript/jquery.scrollex.min.js" afterPath="$PROJECT_DIR$/public/GameBooks/javascript/jquery.scrollex.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/javascript/main.js" afterPath="$PROJECT_DIR$/public/GameBooks/javascript/main.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/javascript/skel.min.js" afterPath="$PROJECT_DIR$/public/GameBooks/javascript/skel.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/javascript/util.js" afterPath="$PROJECT_DIR$/public/GameBooks/javascript/util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.jade" afterPath="$PROJECT_DIR$/views/layout.jade" />
     </list>
     <ignored path="pythagorgamebook.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,14 +47,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utility.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="utility.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/utility.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3802817">
+            <state vertical-scroll-proportion="0.0">
               <caret line="62" column="64" selection-start-line="62" selection-start-column="64" selection-end-line="62" selection-end-column="64" />
               <folding>
                 <element signature="e#0#39#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.jade" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/layout.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.10510949">
+              <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -50,7 +74,22 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-16.56">
               <caret line="46" column="68" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
-              <folding />
+              <folding>
+                <marker date="1471018028257" expanded="true" signature="21:1476" placeholder="..." />
+                <marker date="1471018028257" expanded="true" signature="35:78" placeholder="..." />
+                <marker date="1471018028257" expanded="true" signature="86:1476" placeholder="..." />
+                <marker date="1471018028257" expanded="true" signature="125:275" placeholder="..." />
+                <marker date="1471018028257" expanded="true" signature="134:275" placeholder="..." />
+                <marker date="1471018028257" expanded="true" signature="285:1476" placeholder="..." />
+                <marker date="1471018028257" expanded="true" signature="972:1476" placeholder="..." />
+                <marker date="1471018028257" expanded="true" signature="985:1476" placeholder="..." />
+                <marker date="1471018028257" expanded="true" signature="1043:1088" placeholder="..." />
+                <marker date="1471018028257" expanded="true" signature="1101:1147" placeholder="..." />
+                <marker date="1471018028257" expanded="true" signature="1160:1211" placeholder="..." />
+                <marker date="1471018028257" expanded="true" signature="1237:1306" placeholder="..." />
+                <marker date="1471018028257" expanded="true" signature="1319:1388" placeholder="..." />
+                <marker date="1471018028257" expanded="true" signature="1401:1476" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,7 +99,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="38" />
-              <folding />
+              <folding>
+                <marker date="1471018491657" expanded="true" signature="21:128" placeholder="..." />
+                <marker date="1471018491657" expanded="true" signature="35:128" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,17 +122,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-2.88">
               <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-              <folding />
+              <folding>
+                <marker date="1471018491661" expanded="true" signature="20:137" placeholder="..." />
+                <marker date="1471018491661" expanded="true" signature="36:137" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,7 +178,6 @@
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/views/index.jade" />
         <option value="$PROJECT_DIR$/routes/view.js" />
-        <option value="$PROJECT_DIR$/views/layout.jade" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/read.js" />
         <option value="$PROJECT_DIR$/views/view.jade" />
@@ -152,6 +186,7 @@
         <option value="$PROJECT_DIR$/views/edit.jade" />
         <option value="$PROJECT_DIR$/routes/edit.js" />
         <option value="$PROJECT_DIR$/node_modules/utility.js" />
+        <option value="$PROJECT_DIR$/views/layout.jade" />
       </list>
     </option>
   </component>
@@ -251,6 +286,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="GameBooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="javascript" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -268,6 +307,10 @@
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameBooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -280,6 +323,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameBooks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -304,6 +351,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/routes" />
       <recent name="$PROJECT_DIR$/views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/GameBooks" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.bin/www">
@@ -392,14 +442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.6">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -412,7 +454,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.56">
           <caret line="46" column="68" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
-          <folding />
+          <folding>
+            <marker date="1471018028257" expanded="true" signature="21:1476" placeholder="..." />
+            <marker date="1471018028257" expanded="true" signature="35:78" placeholder="..." />
+            <marker date="1471018028257" expanded="true" signature="86:1476" placeholder="..." />
+            <marker date="1471018028257" expanded="true" signature="125:275" placeholder="..." />
+            <marker date="1471018028257" expanded="true" signature="134:275" placeholder="..." />
+            <marker date="1471018028257" expanded="true" signature="285:1476" placeholder="..." />
+            <marker date="1471018028257" expanded="true" signature="972:1476" placeholder="..." />
+            <marker date="1471018028257" expanded="true" signature="985:1476" placeholder="..." />
+            <marker date="1471018028257" expanded="true" signature="1043:1088" placeholder="..." />
+            <marker date="1471018028257" expanded="true" signature="1101:1147" placeholder="..." />
+            <marker date="1471018028257" expanded="true" signature="1160:1211" placeholder="..." />
+            <marker date="1471018028257" expanded="true" signature="1237:1306" placeholder="..." />
+            <marker date="1471018028257" expanded="true" signature="1319:1388" placeholder="..." />
+            <marker date="1471018028257" expanded="true" signature="1401:1476" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -436,7 +493,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="38" />
-          <folding />
+          <folding>
+            <marker date="1471018491657" expanded="true" signature="21:128" placeholder="..." />
+            <marker date="1471018491657" expanded="true" signature="35:128" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -444,7 +504,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.88">
           <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-          <folding />
+          <folding>
+            <marker date="1471018491661" expanded="true" signature="20:137" placeholder="..." />
+            <marker date="1471018491661" expanded="true" signature="36:137" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -474,11 +537,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/utility.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3802817">
+        <state vertical-scroll-proportion="0.0">
           <caret line="62" column="64" selection-start-line="62" selection-start-column="64" selection-end-line="62" selection-end-column="64" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10510949">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
