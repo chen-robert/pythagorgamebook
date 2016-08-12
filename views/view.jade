@@ -10,7 +10,9 @@ block content
         th Title
         th Author(s)
         th Description
+        th Pages
         th Date
+        th Views
         th Read
         th Edit
         th Update
@@ -21,7 +23,9 @@ block content
           td #{gameBook.title}
           td #{gameBook.author}
           td #{gameBook.description}
+          td #{gameBook.pageCount}
           td #{gameBook.dateCreated}
+          td #{gameBook.views}
           td
             form(action="read/#{gameBook.id}", method="get")
               button(class="btn btn-small btn-primary" type="submit") Read
@@ -33,6 +37,7 @@ block content
               button(class="btn btn-small btn-primary" type="submit" disabled) Delete
       tr
         form(action="create", method="post")
+          input(type="hidden", name="type", value="gamebook")
           td
           td
             input(type="text", name="title")
@@ -40,6 +45,7 @@ block content
             input(type="text", name="author")
           td
             input(type="text", name="description")
+          td
           td
           td
             button(class="btn btn-small btn-primary", disabled) Read

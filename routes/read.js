@@ -13,6 +13,9 @@ router.get('/', function(req, res, next) {
   }
   else
   {
+    utility.incrementGameBookViews(gameBookId, function() {
+
+    });
     utility.getGameBookById(gameBookId, function(gameBook) {
       res.render('read', { title: utility.pageTitle, gameBook: gameBook });
     });

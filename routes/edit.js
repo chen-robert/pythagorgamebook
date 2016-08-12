@@ -14,7 +14,9 @@ router.get('/', function(req, res, next) {
   else
   {
     utility.getGameBookById(gameBookId, function(gameBook) {
-      res.render('edit', { title: utility.pageTitle, gameBook: gameBook });
+      utility.getChildPages(gameBookId, function(gameBookPages) {
+        res.render('edit', { title: utility.pageTitle, gameBook: gameBook, gameBookPages: gameBookPages, gameBookPagesCount: gameBookPages.length });
+      });
     });
   }
 });

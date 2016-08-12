@@ -2,6 +2,52 @@ extends layout
 block content
     div(style="text-align: center;")
         h1 #{gameBook.title}
-        p Nothing Here Yet, Come Back Soon
-        form(action="../view", method="get")
-          button(class="btn btn-small btn-primary" type="submit") Back
+    table(class="table table-striped")
+      thead
+        tr
+          th Id
+          th Path
+          th JSON
+          th Date
+          th Views
+          th Read
+          th Edit
+          th Update
+      tbody
+        each page, i in gameBookPages
+          tr
+            td #{page.id}
+            td #{page.path}
+            td #{page.json}
+            td #{page.dateCreated}
+            td #{page.views}
+            td
+              form(action="read/#{page.id}", method="get")
+                button(class="btn btn-small btn-primary" type="submit") Read
+            td
+              form(action="edit/#{page.id}", method="get")
+                button(class="btn btn-small btn-primary" type="submit") Edit
+            td
+              form(action="delete/#{page.id}", method="get")
+                button(class="btn btn-small btn-primary" type="submit" disabled) Delete
+        tr
+        form(action="../create", method="post")
+          input(type="hidden", name="type", value="page")
+          td
+            input(type="text", name="path", value="path")
+          td
+            input(type="text", name="title", value="title")
+          td
+            input(type="text", name="text", value="text")
+          td
+            input(type="text", name="options", value="options []")
+          td
+            input(type="text", name="optionLinks", value="links []")
+          td
+            button(class="btn btn-small btn-primary", disabled) Read
+          td
+            button(class="btn btn-small btn-primary", disabled) Edit
+          td
+            button(class="btn btn-small btn-primary" type="submit") Create
+    form(action="../view", method="get")
+      button(class="btn btn-small btn-primary" type="submit") Back
