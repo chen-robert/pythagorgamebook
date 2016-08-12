@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b64ec34-5ebd-4205-83df-6a3aed2ff944" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/create.js" afterPath="$PROJECT_DIR$/routes/create.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/edit.jade" afterPath="$PROJECT_DIR$/views/edit.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/edit.js" afterPath="$PROJECT_DIR$/routes/edit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/read.js" afterPath="$PROJECT_DIR$/routes/read.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/utility.js" afterPath="$PROJECT_DIR$/node_modules/utility.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/view.jade" afterPath="$PROJECT_DIR$/views/view.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pythagorgamebook.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utility.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="utility.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/utility.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5889047">
-              <caret line="106" column="197" selection-start-line="106" selection-start-column="197" selection-end-line="106" selection-end-column="197" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="106" column="153" selection-start-line="106" selection-start-column="153" selection-end-line="106" selection-end-column="153" />
               <folding>
                 <element signature="e#0#39#0" expanded="false" />
               </folding>
@@ -61,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view.jade" pinned="false" current-in-tab="false">
+      <file leaf-file-name="view.jade" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/view.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.76">
-              <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.6967841">
+              <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -156,8 +151,8 @@
         <option value="$PROJECT_DIR$/routes/edit.js" />
         <option value="$PROJECT_DIR$/routes/create.js" />
         <option value="$PROJECT_DIR$/views/edit.jade" />
-        <option value="$PROJECT_DIR$/views/view.jade" />
         <option value="$PROJECT_DIR$/node_modules/utility.js" />
+        <option value="$PROJECT_DIR$/views/view.jade" />
       </list>
     </option>
   </component>
@@ -390,7 +385,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1204" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -398,7 +393,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1574124" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33544877" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33544877" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -499,21 +494,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/view.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.76">
-          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/utility.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5889047">
-          <caret line="106" column="197" selection-start-line="106" selection-start-column="197" selection-end-line="106" selection-end-column="197" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="106" column="153" selection-start-line="106" selection-start-column="153" selection-end-line="106" selection-end-column="153" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/view.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6967841">
+          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
