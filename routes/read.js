@@ -4,6 +4,32 @@ var utility = require('utility');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
+  var path = req.query.path;
+
+  if (path == null)
+  {
+    res.redirect('view');
+  }
+  else
+  {
+    var path = path.replace("'", "").replace('"', '');
+    var gameBookId = path.split('/')[0];
+    utility.getGameBookById(gameBookId, function(gameBook) {
+      utility.getPage(path, function(pageJSON) {
+        try {
+          var page = JSON.parse(pageJSON.json);
+          res.render('read', { title: utility.pageTitle, gameBook:gameBook, pageTitle: page.title, pageText: page.text, pageOptions: page.options });
+        }
+        catch (err)
+        {
+          console.log("Error when parsing input regarding page paths.");
+          res.redirect('back');
+        }
+      });
+    });
+  }
+
+  /*
   var urlSegments = req.originalUrl.split('/');
   var gameBookId = urlSegments.length < 3 ? null : urlSegments[3].replace('?', '');
   if (gameBookId == null)
@@ -20,6 +46,7 @@ router.get('/', function(req, res, next) {
       res.render('read', { title: utility.pageTitle, gameBook: gameBook });
     });
   }
+  */
 });
 
 module.exports = router;
