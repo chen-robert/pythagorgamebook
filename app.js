@@ -4,9 +4,11 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var utility = require('utility');
 
 var index = require('./routes/index');
 var view = require('./routes/view');
+var create = require('./routes/create');
 var edit = require('./routes/edit');
 var read = require('./routes/read');
 
@@ -26,10 +28,15 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/GameBooks/', index);
 app.use('/GameBooks/view', view);
+app.use('/GameBooks/create', create)
 app.use('/GameBooks/edit/*', edit);
 app.use('/GameBooks/read/*', read);
 app.use('/GameBooks/read/*/*', read);
 app.use('/GameBooks/read/*/*/*', read);
+
+utility.initDB(function() {
+    console.log("Initialized Database.");
+});
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -61,6 +68,5 @@ app.use(function(err, req, res, next) {
     error: {}
   });
 });
-
 
 module.exports = app;

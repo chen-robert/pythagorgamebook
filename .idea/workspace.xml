@@ -2,14 +2,141 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b64ec34-5ebd-4205-83df-6a3aed2ff944" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/edit.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/edit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/read.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/read.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/view.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/view.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bignumber.js/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/string_decoder/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bignumber.js/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bignumber.js/doc/API.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/Auth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/ChangeUser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/Changes.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ClientAuthenticationPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComChangeUserPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComPingPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComQueryPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComQuitPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComStatisticsPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/Connection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/ConnectionConfig.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/EmptyPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/EofPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ErrorPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/Field.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/FieldPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sqlstring/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Handshake.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/HandshakeInitializationPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bignumber.js/LICENCE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/core-util-is/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/inherits/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sqlstring/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/string_decoder/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/License" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/LocalDataFilePacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/OkPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/OldPasswordPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/PacketHeader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/PacketWriter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/Parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Ping.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/Pool.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/PoolCluster.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/PoolConfig.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/PoolConnection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/PoolNamespace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/PoolSelector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/Protocol.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Query.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Quit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bignumber.js/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/core-util-is/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/inherits/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/isarray/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sqlstring/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/string_decoder/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/ResultSet.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ResultSetHeaderPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/RowDataPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/SSLRequestPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Sequence.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/SqlString.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sqlstring/lib/SqlString.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Statistics.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/StatisticsPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/UseOldPasswordPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_duplex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_passthrough.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_readable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_transform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_writable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bignumber.js/bignumber.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bignumber.js/bignumber.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bignumber.js/bignumber.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bootstrap-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascript/bootstrap-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bignumber.js/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/isarray/build/build.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/charsets.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/client.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/images/close.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/isarray/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/create.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/duplex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/errors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/field_flags.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/core-util-is/float.patch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/float.patch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/ie8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/ie9.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/isarray/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sqlstring/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/string_decoder/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/inherits/inherits.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/inherits/inherits_browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascript/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascript/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascript/jquery.scrollex.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascript/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bignumber.js/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/core-util-is/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/inherits/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/isarray/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sqlstring/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/string_decoder/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/passthrough.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/readable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/server_status.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascript/skel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/ssl_profiles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/core-util-is/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/inherits/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/theme-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/transform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/types.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/core-util-is/lib/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascript/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/utility.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/writable.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/edit.jade" afterPath="$PROJECT_DIR$/views/edit.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/edit.js" afterPath="$PROJECT_DIR$/routes/edit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.jade" afterPath="$PROJECT_DIR$/views/layout.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/read.jade" afterPath="$PROJECT_DIR$/views/read.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/read.js" afterPath="$PROJECT_DIR$/routes/read.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/view.jade" afterPath="$PROJECT_DIR$/views/view.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/view.js" afterPath="$PROJECT_DIR$/routes/view.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pythagorgamebook.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,9 +160,21 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.72">
-              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+            <state vertical-scroll-proportion="7.88">
+              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utility.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/utility.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="87" column="86" selection-start-line="87" selection-start-column="86" selection-end-line="87" selection-end-column="86" />
+              <folding>
+                <element signature="e#0#39#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,8 +182,28 @@
       <file leaf-file-name="view.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/view.jade">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.56">
+              <caret line="46" column="68" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="read.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/read.jade">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/edit.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.42043796">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -53,38 +212,8 @@
       <file leaf-file-name="edit.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/edit.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="read.jade" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/read.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/layout.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.04">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/edit.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            <state vertical-scroll-proportion="-2.88">
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -100,11 +229,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="create.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/create.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.2">
+              <caret line="10" column="163" selection-start-line="10" selection-start-column="163" selection-end-line="10" selection-end-column="163" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="view.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/view.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -113,8 +252,8 @@
       <file leaf-file-name="read.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/read.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            <state vertical-scroll-proportion="-4.32">
+              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="18" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -122,18 +261,31 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/routes/read.js" />
-        <option value="$PROJECT_DIR$/routes/edit.js" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/routes/view.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/views/index.jade" />
+        <option value="$PROJECT_DIR$/routes/view.js" />
+        <option value="$PROJECT_DIR$/views/layout.jade" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/routes/read.js" />
+        <option value="$PROJECT_DIR$/views/view.jade" />
+        <option value="$PROJECT_DIR$/routes/create.js" />
+        <option value="$PROJECT_DIR$/node_modules/utility.js" />
+        <option value="$PROJECT_DIR$/views/read.jade" />
+        <option value="$PROJECT_DIR$/views/edit.jade" />
+        <option value="$PROJECT_DIR$/routes/edit.js" />
       </list>
     </option>
   </component>
@@ -233,7 +385,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
+              <option name="myItemId" value="javascript" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -251,6 +403,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pythagorgamebook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pythagorgamebook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -262,11 +432,12 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/hg/AutoBanker3" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/views" />
       <recent name="$PROJECT_DIR$/routes" />
+      <recent name="$PROJECT_DIR$/views" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.bin/www">
@@ -347,22 +518,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routes/read.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/edit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/error.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -371,34 +526,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/view.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.72">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.04">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state vertical-scroll-proportion="-3.6">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -413,24 +544,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/view.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-16.56">
+          <caret line="46" column="68" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/edit.jade">
+    <entry file="file://$PROJECT_DIR$/routes/create.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.2">
+          <caret line="10" column="163" selection-start-line="10" selection-start-column="163" selection-end-line="10" selection-end-column="163" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/utility.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="87" column="86" selection-start-line="87" selection-start-column="86" selection-end-line="87" selection-end-column="86" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="7.88">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/read.jade">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/edit.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.88">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/view.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/read.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.32">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="18" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42043796">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
           <folding />
         </state>
       </provider>
