@@ -14,6 +14,9 @@ router.get('/', function(req, res, next) {
   {
     var path = path.replace("'", "").replace('"', '');
     var gameBookId = path.split('/')[0];
+    if (req.query.view == 1) {
+      utility.incrementGameBookViews(gameBookId, function () {});
+    }
     utility.getGameBookById(gameBookId, function(gameBook) {
       utility.getPage(path, function(pageJSON) {
         try {

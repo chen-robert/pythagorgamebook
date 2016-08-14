@@ -29,6 +29,7 @@ block content
           td
             form(action="read/#{gameBook.id}", method="get")
               input(type="hidden", name="path", value='"#{gameBook.id}"')
+              input(type="hidden", name="view", value="1")
               button(class="btn btn-small btn-primary" type="submit") Read
           td
             form(action="edit/#{gameBook.id}", method="get")
