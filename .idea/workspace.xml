@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b64ec34-5ebd-4205-83df-6a3aed2ff944" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/read.jade" afterPath="$PROJECT_DIR$/views/read.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/edit.jade" afterPath="$PROJECT_DIR$/views/edit.jade" />
     </list>
     <ignored path="pythagorgamebook.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,10 +65,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="read.jade" pinned="false" current-in-tab="true">
+      <file leaf-file-name="read.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/read.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38591117">
+            <state vertical-scroll-proportion="-5.04">
               <caret line="14" column="89" selection-start-line="14" selection-start-column="89" selection-end-line="14" selection-end-column="89" />
               <folding />
             </state>
@@ -86,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.jade" pinned="false" current-in-tab="false">
+      <file leaf-file-name="edit.jade" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/edit.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.9">
-              <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.20061256">
+              <caret line="20" column="222" selection-start-line="20" selection-start-column="222" selection-end-line="20" selection-end-column="222" />
               <folding />
             </state>
           </provider>
@@ -147,12 +146,12 @@
         <option value="$PROJECT_DIR$/routes/view.js" />
         <option value="$PROJECT_DIR$/routes/edit.js" />
         <option value="$PROJECT_DIR$/routes/create.js" />
-        <option value="$PROJECT_DIR$/views/edit.jade" />
         <option value="$PROJECT_DIR$/node_modules/utility.js" />
         <option value="$PROJECT_DIR$/routes/read.js" />
         <option value="$PROJECT_DIR$/views/layout.jade" />
         <option value="$PROJECT_DIR$/views/view.jade" />
         <option value="$PROJECT_DIR$/views/read.jade" />
+        <option value="$PROJECT_DIR$/views/edit.jade" />
       </list>
     </option>
   </component>
@@ -472,26 +471,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/edit.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.9">
-          <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/read.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.08">
           <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/view.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.42">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -506,8 +489,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/read.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38591117">
+        <state vertical-scroll-proportion="-5.04">
           <caret line="14" column="89" selection-start-line="14" selection-start-column="89" selection-end-line="14" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/view.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.42">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/edit.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20061256">
+          <caret line="20" column="222" selection-start-line="20" selection-start-column="222" selection-end-line="20" selection-end-column="222" />
           <folding />
         </state>
       </provider>

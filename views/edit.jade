@@ -18,6 +18,7 @@ block content
           tr
             td #{page.id}
             td #{page.path}
+              button(class="btn btn-small btn-primary" onclick="var textBox = document.getElementById('newPagePathField'); textBox.value='#{page.path}/?'; textBox.focus(); textBox.setSelectionRange(textBox.value.length - 1,textBox.value.length);") Add Child
             td #{page.json}
             td #{page.dateCreated}
             td #{page.views}
@@ -34,7 +35,7 @@ block content
         form(action="../create", method="post")
           input(type="hidden", name="type", value="page")
           td
-            input(type="text", name="path", value="path")
+            input(type="text", name="path", value="path", id="newPagePathField")
           td
             input(type="text", name="title", value="title")
           td
