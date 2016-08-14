@@ -24,10 +24,10 @@ block content
             td #{page.views}
             td
               form(action="read/#{page.id}", method="get")
-                button(class="btn btn-small btn-primary" type="submit") Read
+                button(class="btn btn-small btn-primary" type="submit" disabled) Read
             td
               form(action="edit/#{page.id}", method="get")
-                button(class="btn btn-small btn-primary" type="submit") Edit
+                button(class="btn btn-small btn-primary" type="submit" disabled) Edit
             td
               form(action="delete/#{page.id}", method="get")
                 button(class="btn btn-small btn-primary" type="submit" disabled) Delete
